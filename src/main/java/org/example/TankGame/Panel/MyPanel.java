@@ -172,7 +172,7 @@ public class MyPanel extends JPanel implements KeyListener,Runnable {
      * @param g
      */
     public void drawBullet(int x,int y,Graphics g){
-        g.setColor(Color.RED);
+        g.setColor(Color.WHITE);
         g.fill3DRect(x, y, 5,5,false);
     }
 }
